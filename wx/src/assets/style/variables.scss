@@ -1,0 +1,187 @@
+// Colors
+$light: #ffffff !default;
+$huangse: #f0ff00 !default;
+$gray:#666666 !default;
+$gray-light-1:#999999 !default;
+$gray-light-2:#aaaaaa !default;
+$gray-light-3:#d8d8d8 !default;
+$gray-light-4:#f4f4f4 !default;
+$gray-dark:#333333;
+$yellow-light-1:#ffc130 !default;
+$brand-pure: #fff !default;
+$body-color: #333 !default;
+$brand-primary: #1C89EA !default;
+$brand-secondary: #FF7043 !default;
+$brand-success: #30BE71 !default;
+$brand-info: #2b71b5 !default;
+$brand-warning: #fab83a !default;
+$brand-danger: #EA413A !default;
+$brand-pure: #fff !default;
+// Opacity
+$opacity-disabled: .65 !default;
+// Border radius
+$border-radius: 2px !default;
+$border-radius-lg: 4px !default;
+$border-radius-10x: 10px !default;
+$border-radius-sm: 1px !default;
+$border-radius-circle: 10rem !default;
+
+/* Page */
+
+$default-page-bg: #f4f4f4;
+
+/* Header */
+
+$header-height: 44px;
+$header-button-icon-size: 26px;
+$header-button-icon-color: rgb(173, 173, 173);
+$header-button-title-size: 18px;
+$header-button-title-color:#333;
+// $header-button-title-color:#505050;
+// Border
+$border-color: #d9d9d9 !default;
+
+/* Thin Border */
+
+$default-border-color: #ddd;
+$ios-transition-duration: 500ms !default;
+$ios-transition-timing-function: cubic-bezier(.36, .66, .04, 1) !default;
+$android-transition-duration: 200ms !default;
+$android-transition-timing-function: cubic-bezier(0.4, 0.6, 0.2, 1) !default;
+
+/* Toast */
+
+$toast-bg: rgba(0, 0, 0, .6) !default;
+$toast-color: $light !default;
+$toast-font-size: .28rem !default;
+$toast-border-radius: 4px !default;
+$toast-border-radius-lg: 6px !default;
+$toast-padding: .2rem .25rem !default;
+$toast-padding-lg: .2rem 1rem .5rem !default;
+$toast-position-gap: 4rem !default;
+$toast-max-width: 80% !default;
+$toast-animation-enter-duration: .6s !default;
+$toast-animation-enter-function: ease-in !default;
+$toast-animation-leave-duration: .3s !default;
+$toast-animation-leave-function: cubic-bezier(.6, .04, .98, .34) !default;
+$toast-icon-font-size: 4rem !default;
+$toast-icon-margin-bottom: .5rem !default;
+$toast-loading-margin: .2rem 0 !default;
+// Loading
+$loading-width: 0.8rem !default;
+$loading-animation-duration: 2s !default;
+$loading-path-stroke: $border-color !default;
+$loading-path-stroke-width: 3 !default;
+$loading-path-animation-duration: 1.5s !default;
+$loading-path-stroke-primary: $brand-primary !default;
+$loading-path-stroke-secondary: $brand-secondary !default;
+$loading-width-sm: 1rem !default;
+// mask
+$mask-bg-color: rgba(0, 0, 0, .3) !default;
+$mask-animation-enter-duration: .3s !default;
+$mask-animation-enter-function: ease !default;
+$mask-animation-leave-duration: .2s !default;
+$mask-animation-leave-function: ease !default;
+// Border
+$border-color: #d9d9d9 !default;
+$border-image-top: linear-gradient(to bottom, $border-color, $border-color 50%, transparent 0) !default;
+$border-image-bottom: linear-gradient(to top, $border-color, $border-color 50%, transparent 0) !default;
+$border-image-left: linear-gradient(to right, $border-color, $border-color 50%, transparent 0) !default;
+// Alert
+$alert-width: 5.6rem !default;
+$alert-max-width: 5.6rem !default;
+$alert-padding: 20px 0 0 0 !default;
+$alert-bg-color: $brand-pure !default;
+$alert-border-radius: $border-radius-10x !default;
+$alert-animation-duration: .3s !default;
+$alert-animation-enter-function: cubic-bezier(.08, .82, .167, 1) !default;
+$alert-animation-leave-function: cubic-bezier(.6, .04, .98, .34) !default;
+$alert-title-font-size: 17px !default;
+$alert-title-font-weight: bold !default;
+$alert-title-color: #333333 !default;
+$alert-message-color: #666666 !default;
+$alert-message-font-size: 13px !default;
+$alert-message-padding: 5px !default;
+$alert-message-line-height: 1.43 !default;
+$alert-message-text-align: center !default;
+$alert-btn-color: $huangse !default;
+$alert-btn-font-size: 17px !default;
+$alert-btn-padding: .3rem 0 !default;
+$alert-box-h-shadow: 0 0 0.85rem 0 rgba(0, 0, 0, 0.22) !default;
+$alert-box-v-shadow: 0 0.85rem 0.85rem 0 rgba(0, 0, 0, 0.30) !default;
+// Group/Cell
+$group-bg-color: $brand-pure !default;
+$group-margin: 20px 0 0 !default;
+// $group-title-padding: .5rem 1rem !default;
+$cell-color: $body-color !default;
+$cell-bg-color: $brand-pure !default;
+$cell-padding: 10px 10px !default;
+$cell-gap-left: 1rem !default;
+$cell-children-gap: 1rem !default;
+$cell-bg-color-active: $gray-light-4 !default;
+$cell-bg-color-disabled: $border-color !default;
+$cell-arrow-color: #818a91 !default;
+$cell-arrow-margin: 5px 0 0 10px !default;
+// Tabbar
+$tabbar-bg-color: $brand-pure !default;
+$tabbar-margin-bottom: 20px !default;
+$tabbar-height: 50px !default;
+$tabbar-line-height: 50px !default;
+$tabbar-transition: all .3s cubic-bezier(.86, 0, .07, 1) !default;
+$tabbar-opacity-disabled: $opacity-disabled !default;
+$tabbar-item-border-width: 2px !default;
+$tabbar-item-color-active: $huangse !default;
+$tabbar-item-border-color-active: $huangse !default;
+// Swipe
+$swipe-indicators-bottom: 20px !default;
+$swipe-indicator-padding: 3px !default;
+$swipe-indicator-margin: 0 1px !default;
+$swipe-indicator-opacity: 1 !default;
+$swipe-indicator-border-color: $brand-pure !default;
+$swipe-indicator-bg-color-active: $brand-pure !default;
+$swipe-indicator-transition-duration: .3s !default;
+$swipe-indicator-transition-function: ease-in-out !default;
+$ios-transition-duration: 500ms !default;
+$ios-transition-timing-function: cubic-bezier(.36, .66, .04, 1) !default;
+$android-transition-duration: 200ms !default;
+$android-transition-timing-function: cubic-bezier(0.4, 0.6, 0.2, 1) !default;
+// Checkbox
+$checkbox-padding: 3px !default;
+$checkbox-color: $brand-pure !default;
+$checkbox-bg-color: $brand-pure !default;
+$checkbox-border-color: #ddd !default;
+$checkbox-transition: all .2s ease-in !default;
+$checkbox-bg-color-checked: $brand-primary !default;
+$checkbox-border-color-checked: $brand-primary !default;
+$checkbox-bg-color-disabled: #dfdfdf !default;
+$checkbox-border-color-disabled: $checkbox-border-color !default;
+$checkbox-addon-font-size: 13px !default;
+$checkbox-addon-padding-top: 0 !default;
+$radio-addon-width: 8px !default;
+$radio-addon-height: 8px !default;
+$radio-addon-padding: .5rem !default;
+$checkbox-label-gap: .167rem !default;
+$checkbox-square-border-radius: $border-radius !default;
+$checkbox-gap: 1rem !default;
+// Toggle
+$toggle-addon-size: 30px !default;
+$toggle-addon-bg-color: $brand-pure !default;
+$toggle-addon-bg-color-checked: $brand-primary !default;
+$toggle-addon-opacity-disabled: $opacity-disabled !default;
+$toggle-bg-color: #e7eaec !default;
+$toggle-width: 70px !default;
+$toggle-padding: 3px !default;
+$toggle-border-radius: $toggle-addon-size !default;
+$toggle-transition: all .2s ease !default;
+$font-stack: "-apple-system",
+"Helvetica Neue",
+"Roboto",
+"Segoe UI",
+sans-serif;
+// z-index
+$z-index-top: 10 !default;
+$z-index-slide: 12 !default;
+$z-index-sidelip: 13 !default;
+$z-index-toast: 14 !default;
+$z-index-mask: 15 !default;
+$z-index-alert: 16 !default;

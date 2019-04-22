@@ -1,0 +1,97 @@
+.box-row {
+  /*! autoprefixer: off */
+  @include display-flex();
+  @include flex-direction();
+  @include flex-wrap(nowrap);
+}
+
+.box-column {
+  /*! autoprefixer: off */
+  @include display-flex();
+  @include flex-direction(column);
+  @include flex-wrap(nowrap);
+}
+
+.box-row-wrap {
+  /*! autoprefixer: off */
+  @include display-flex();
+  @include flex-direction();
+  @include flex-wrap(wrap);
+}
+
+.justify-center {
+  /*! autoprefixer: off */
+  @include justify-content(center);
+}
+
+.justify-flex-start{
+  /*! autoprefixer: off */
+  @include justify-content(flex-start);
+}
+
+.justify-space-between {
+  /*! autoprefixer: off */
+  @include justify-content(space-between);
+}
+
+.justify-space-around {
+  /*! autoprefixer: off */
+  @include justify-content(space-around);
+}
+
+.justify-end {
+  /*! autoprefixer: off */
+  @include justify-content(flex-end);
+}
+
+.align-center {
+  /*! autoprefixer: off */
+  @include align-items(center);
+}
+
+.align-start  {
+  /*! autoprefixer: off */
+  @include align-items(flex-start );
+}
+
+.align-end {
+  /*! autoprefixer: off */
+  @include align-items(flex-end);
+}
+
+.box-center {
+  /*! autoprefixer: off */
+  @include display-flex();
+  @include flex-direction();
+  @include flex-wrap(nowrap);
+  @include align-items(center);
+  @include justify-content(center);
+}
+
+.flex-wrap {
+  @include flex-wrap(wrap);
+}
+
+.flex-nowrap {
+  @include flex-wrap(nowrap);
+}
+
+.flex {
+  @include flex();
+}
+
+.c-run {
+  color: $huangse
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.bg-gray {
+  background-color: $gray-light-4 !important;
+}
+
+.ani-fadeIn-enter-active {
+  animation: fadeIn .2s
+}
